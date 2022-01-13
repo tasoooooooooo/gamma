@@ -1,0 +1,25 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>カラー</item>
+        <item>モノクロ</item>
+        <item>セピア</item>
+    </string-array>
+
+    <string-array name="reply_entries2">
+        <item>Bモード</item>
+        <item>BAモード</item>
+    </string-array>
+
+    <string-array name="reply_entries3">
+        <item>オフセット</item>
+        <item>絶対値</item>
+    </string-array>
+
+
+
+    <string-array name="reply_entries4">
+        <item>距離送り</item>
+        <item>時間送り</item>
+    </string-array>
+</resources>

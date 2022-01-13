@@ -1,0 +1,95 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <PreferenceCategory app:title="測定設定"
+        app:icon="@drawable/ic_baseline_settings_24"
+       >
+
+        <EditTextPreference
+            app:key="signature"
+            app:title="@string/yuudenn_title"
+            app:useSimpleSummaryProvider="true"/>
+
+        <ListPreference
+            app:defaultValue="repl4"
+            app:entries="@array/reply_entries4"
+            app:entryValues="@array/reply_entries4"
+            app:key="reply4"
+            app:title="@string/sokutei_title"
+            app:useSimpleSummaryProvider="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            app:title="表示範囲"
+            app:icon="@drawable/ic_baseline_photo_size_select_small_24">
+
+            <SeekBarPreference
+                app:key="signature2"
+                app:title="@string/signature_title"
+                app:showSeekBarValue="true"
+                app:defaultValue="30"
+                android:max="100"
+                app:min="0"
+                app:useSimpleSummaryProvider="true" />
+
+            <SeekBarPreference
+                app:key="signature3"
+                app:title="@string/signature2_title"
+                app:showSeekBarValue="true"
+                app:defaultValue="100"
+                android:max="200"
+                app:min="0"
+                app:useSimpleSummaryProvider="true" />
+
+        </PreferenceCategory>
+
+
+
+
+
+        <PreferenceCategory
+            android:title="表示設定"
+            app:icon="@drawable/ic_baseline_color_lens_24"
+            >
+
+        <ListPreference
+            app:defaultValue="reply"
+            app:entries="@array/reply_entries"
+            app:entryValues="@array/reply_entries"
+            app:key="reply"
+            app:title="@string/color_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="reply2"
+            app:entries="@array/reply_entries2"
+            app:entryValues="@array/reply_entries2"
+            app:key="reply2"
+            app:title="@string/reply_title"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="reply3"
+            app:entries="@array/reply_entries3"
+            app:entryValues="@array/reply_entries3"
+
+            app:key="reply3"
+            app:title="@string/kaityou_title"
+            app:useSimpleSummaryProvider="true" />
+
+            <EditTextPreference
+                app:key="yokokannkaku"
+                app:title="走査間隔"
+                app:defaultValue="0.1"
+                app:useSimpleSummaryProvider="true"/>
+
+        </PreferenceCategory>
+
+
+
+
+
+
+</PreferenceScreen>

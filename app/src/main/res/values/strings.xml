@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Setting</string>
+    <!-- Settings Activity Title -->
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">各種設定</string>
+
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">深度スケール</string>
+    <string name="signature2_title">水平スケール</string>
+    <string name="reply_title">表示モード</string>
+    <string name="kaityou_title">階調方式</string>
+    <string name="color_title">カラー種別</string>
+    <string name="yuudenn_title">比誘電率</string>
+    <string name="sokutei_title">測定方式</string>
+
+
+    <string-array name="language_array">
+        <item>Tiger</item>
+        <item>Hourse</item>
+        <item>Sheep</item>
+        <item>Monkey</item>
+        <item>Bird</item>
+    </string-array>
+    <string name="title_activity_keep">keep</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>
